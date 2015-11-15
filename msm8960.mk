@@ -51,6 +51,11 @@ PRODUCT_PACKAGES += \
     libgenlock \
     memtrack.msm8960
 
+
+# DOZE
+PRODUCT_PACKAGES += \
+    HTCDoze
+
 # Filesystem management tools
 PRODUCT_PACKAGES += \
     make_ext4fs
